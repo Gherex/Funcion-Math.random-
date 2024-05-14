@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  user-select: none;
+}
+
+body {
+  background-color: #b5b5b5;
+}
+
+.container-input {
+  display: flex;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3vh;
+}
+
+.container-input__cant,
+.container-input__rep{
+  width: 4rem;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#input__btn {
+  padding: .5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.container-graf {
+  width: 80vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.container-graf__title {
+  text-align: center;
+  padding: 1rem 0;
+  letter-spacing: 2px;
+}
+
+.container-graf__list {
+  background-color: slateblue;
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.container-graf__item {
+  list-style: none;
+  width: 10%;
+  position: relative;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10 {
+  background-color: rgb(31, 45, 99);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.item-1{
+  height: 15%;
+}
+.item-2{
+  height: 20%;
+}
+.item-3{
+  height: 30%;
+}
+.item-4{
+  height: 10%;
+}
+.item-5{
+  height: 25%;
+}
+
+.container-graf__dato {
+  position: absolute;
+  bottom: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+}
+
+.resaltar {
+  color: rgb(129, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 3px;
+}

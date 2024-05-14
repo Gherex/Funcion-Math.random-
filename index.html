@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icono.png" type="image/png">
+  <script src="app.js" defer></script>
+  <title>Grafico Funcion Aleatoria</title>
+</head>
+<body>
+  <div class="container-input">
+    <label for="cantidad">Cantidad: </label>
+    <input class="container-input__cant" id="cantidad" type="number" min="2" max="10" placeholder="5"/>
+    <label for="repeticiones">Repeticiones: </label>
+    <input class="container-input__rep" id="repeticiones" type="number" min="100" max="1000" step="100" placeholder="100"/>
+    <input id="input__btn" type="button" value="Calcular()" />
+  </div>
+  <div class="container-graf">
+    <h1 class="container-graf__title">Función Math.Random()</h1>
+    <ul class="container-graf__list">
+      <li class="container-graf__item item-1">
+        <p class="container-graf__dato"><span class="resaltar">1:</span>15%</p>
+      </li>
+      <li class="container-graf__item item-2">
+        <p class="container-graf__dato"><span class="resaltar">2:</span>20%</p>
+      </li>
+      <li class="container-graf__item item-3">
+        <p class="container-graf__dato"><span class="resaltar">3:</span>30%</p>
+      </li>
+      <li class="container-graf__item item-4">
+        <p class="container-graf__dato"><span class="resaltar">4:</span>10%</p>
+      </li>
+      <li class="container-graf__item item-5">
+        <p class="container-graf__dato"><span class="resaltar">5:</span>25%</p>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
